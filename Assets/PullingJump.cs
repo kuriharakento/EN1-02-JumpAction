@@ -11,6 +11,9 @@ public class PullingJump : MonoBehaviour
     {
         rb = gameObject.GetComponent<Rigidbody>();
         //rb = GetComponent<Rigibody>();    //gameObject‚ÍÈ—ª‰Â”\
+
+        //d—ÍŒW”‚Ì’²®
+        Physics.gravity = new Vector3(0, -7, 0);
     }
     
     private Vector3 clickPosition;
